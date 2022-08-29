@@ -39,3 +39,13 @@ sudo chmod -R 775 /opt/sonarqube/
 #start SonarQube server
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start 
 sh /opt/sonarqube/bin/linux-x86-64/sonar.sh status
+
+#Ensure that SonarQube is running and Access sonarQube on the browser
+#sonarqube default port is = 9000
+#get the sonarqube public ip address
+#publicIP:9000
+curl -v localhost:9000
+54.236.232.85:9000
+default USERNAME: admin
+default password: admin
+
