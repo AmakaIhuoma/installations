@@ -17,10 +17,10 @@ cd /opt
 sudo yum install wget git nano unzip -y
 sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
 #Download nexus software and extract it (unzip).
-sudo wget http://download.sonatype.com/nexus/3/nexus-3.15.2-01-unix.tar.gz 
-sudo tar -zxvf nexus-3.15.2-01-unix.tar.gz
-sudo rm -rf nexus-3.15.2-01-unix.tar.gz
-sudo mv /opt/nexus-3.15.2-01 /opt/nexus
+sudo wget http://download.sonatype.com/nexus/3/nexus-3.41.1-01-unix.tar.gz 
+sudo tar -zxvf nexus-3.41.1-01-unix.tar.gz
+sudo rm -rf nexus-3.41.1-01-unix.tar.gz
+sudo mv /opt/nexus-3.41.1-01 /opt/nexus
 # Change the owner and group permissions to /opt/nexus and /opt/sonatype-work directories.
 sudo chown -R nexus:nexus /opt/nexus
 sudo chown -R nexus:nexus /opt/sonatype-work
